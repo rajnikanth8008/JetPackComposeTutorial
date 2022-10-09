@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jetpackcomposetutorial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JetPackComposeTutorial">
+        <!--<activity
+            android:name=".philippYT.ComposeCourseYT"
+            android:exported="false"
+            android:label="@string/title_activity_compose_course_yt"
+            android:theme="@style/Theme.JetPackComposeTutorial" />-->
+        <activity
+            android:name=".udemy.InfoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_info"
+            android:theme="@style/Theme.JetPackComposeTutorial" />
+
+        <!--android:name=".udemy.MainActivity"-->
+        <activity
+            android:name=".philippYT.concepts.ComposeCourseYT"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.JetPackComposeTutorial">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

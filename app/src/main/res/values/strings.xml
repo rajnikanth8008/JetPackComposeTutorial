@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JetPackComposeTutorial</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_compose_course_yt">ComposeCourseYT</string>
+</resources>
